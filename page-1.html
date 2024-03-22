@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="images/manga_logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=McLaren&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=McLaren&family=Righteous&display=swap" rel="stylesheet">
+
+  <script src="script.js" defer></script>
+  
+  <title>Discover Manga</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="page-1.html">Discover</a>
+      <a href="page-2.html">Favourites</a>
+    </nav>
+  </header>
+  <main>
+    <section class="search-section">
+      <h1>Discover New Mangas</h1>
+      <form id="search-form">
+        <input type="text" id="search-input" placeholder="Search Manga Titles" required>
+        <button type="submit">Search</button>
+      </form>
+    </section>
+    <section class="categories">
+      <h2>Explore by Genre</h2>
+      <div class="category-list">
+        <a href="#">Action</a>
+        <a href="#">Romance</a>
+        <a href="#">Adventure</a>
+        <a href="#">Fantasy</a>
+        <a href="#">Horror</a>
+      </div>
+    </section>
+    <section class="new-releases">
+      <h2>New Releases</h2>
+      <div class="grid">
+          <div class="manga" data-genre="action">
+            <img src="images/attack_on_titan.jpeg" alt="attack on titan manga">
+            <p>Attack on Titan - Humanity's fight for survival against gigantic titans.</p>
+          </div>
+          <div class="manga" data-genre="adventure">
+            <img src="images/one_piece.jpg" alt="one piece manga">
+            <p>One Piece - Join Luffy and his crew in search of the ultimate treasure, One Piece.</p>
+          </div>
+          <div class="manga" data-genre="action">
+            <img src="images/bleach.png" alt="bleach manga">
+            <p>Bleach - follows the adventures of a teenager Ichigo Kurosaki, who obtains the powers of a Soul Reaper.</p>
+          </div>
+          <div class="manga" data-genre="horror">
+            <img src="images/jujutsu_kaisen.jpg" alt="jujutsu kaisen manga">
+            <p>Jujutsu Kaisen - Gojo Satoru is too strong nerf him.</p>
+          </div>
+          <div class="manga" data-genre="romance">
+            <img src="images/chainsaw_man.jpg" alt="chainsaw man manga">
+            <p>Chainsaw Man - Follow Denji on his journey to defeat the gun devil.</p>  
+          </div>
+          <div class="manga" data-genre="action">
+            <img src="images/solo_leveling.jpg" alt="solo leveling manga">
+            <p>Solo Leveling - Sung Jin Woo has the power of shadows.</p>
+          </div>
+          <div class="manga" data-genre="fantasy">
+            <img src="images/the_beginning_after_the_end.jpg" alt="the beginning after the end manga">
+            <p>The Beginning After The End - Follow Arthur through his journey of becoming stronger and defeating his enemies.</p>
+          </div>
+          <div class="manga" data-genre="romance">
+            <img src="images/bunny_girl_senpai.jpg" alt="bunny girl senpai">
+            <p>Bunny Girl Senpai - The story follows Sakuta Azusagawa, who one day finds fellow high-school student Mai Sakurajima wandering through the school library in a bunny girl outfit.</p>
+          </div>
+          <div class="manga" data-genre="horror">
+            <img src="images/death_note.jpg" alt="death note">
+            <p>Death Note - The story follows Light Yagami, a genius high school student who discovers a mysterious notebook: the "Death Note".</p>
+          </div>
+          <div class="manga" data-genre="fantasy">
+            <img src="images/black_clover.jpg" alt="black clover">
+            <p>Black Clover - The story follows Asta, a young boy born without any magic power who is given a rare grimoire that grants him anti-magic abilities.</p>
+          </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>Jeffrey's Manga Website</p>
+  </footer>
+  <script src="scripts/script.js" defer></script>
+</body>
+</html>

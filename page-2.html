@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="images/manga_logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=McLaren&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=McLaren&family=Righteous&display=swap" rel="stylesheet">
+
+  <script src="script.js" defer></script>
+
+  <title>Favorites Manga</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="page-1.html">Discover</a>
+      <a href="page-2.html">Favourites</a>
+    </nav>
+  </header>
+  <div class="container">
+    <aside class="sidebar favorites-intro">
+      <h2>My Personal Favourites</h2>
+      <ul>
+        <li><a href="#bunny-girl-senpai">Bunny Girl Senpai</a></li>
+        <li><a href="#the-beginning-after-the-end">The Beginning After The End</a></li>
+        <li><a href="#chainsaw-man">Chainsaw Man</a></li>
+      </ul>
+      <h3>Vote For Your Favourite Manga</h3>
+      <form id="add-favorite-form">
+        <input type="text" id="favorite-name" name="favorite-name" placeholder="Manga name" required>
+        <textarea id="favorite-reason" name="favorite-reason" placeholder="Why is it your favourite?" required></textarea>
+        <button type="submit">Add Favorite</button>
+      </form>
+      <h3>Weekly Featured Favourite Manga</h3>
+      <div class="featured-favorite">
+        <p><strong>Title:</strong> Bunny Girl Senpai</p>
+        <div class="manga-info">
+          <img src="images/bunny_girl_senpai.jpg" alt="bunny girl senpai manga">
+        </div>
+        <p><strong>Reason:</strong> This manga is highlighted because it's a fan favourite this week!</p>
+      </div>
+    </aside>
+    
+    <main class="favorites-content">
+      <section class="manga-detail">
+        <div class="manga-info" id="bunny-girl-senpai">
+          <img src="images/bunny_girl_senpai.jpg" alt="bunny girl senpai manga">
+          <p>This manga is by far my favorite and is really what got me into anime, manga, and manhwas.
+          The story follows Sakuta Azusagawa, who one day finds fellow high-school student Mai Sakurajima wandering through the school library in a bunny girl outfit. Mai is surprised to find that Sakuta can see her, as she explains that currently no one else seems to be able to see or hear her, no matter what she does. Sakuta quickly realises that Mai must be suffering from a phenomenon called “Adolescence Syndrome”, which our protagonist is familiar with, thanks to his little sister going through it. Not wanting to see Mai suffer, Sakuta offers to stay by her side and help get to the bottom of the problem shes facing, an invitation she reluctantly accepts. Can Sakuta return Mais life to normal or is she destined to only be noticed by him forevermore? </p>
+        </div>
+        <div class="manga-info" id="the-beginning-after-the-end">
+          <img src="images/the_beginning_after_the_end.jpg" alt="the beginning after the end manga">
+          <p>This manga has such an amazing story and the art is amazing. The action in the manga is also so good. The fight scenes are peak.
+          The plot of TBATE is centered on King Grey, a mighty leader who is reincarnated into the continent of Dicathen as Arthur Leywin. However, Arthur didn't reincarnate into a new world naked, without any skill; his previous experience as a warrior helped him hone his skills as a mage faster than normal. At the age of three, Arthur awakened as a mage an extremely rare occurrence in Dicathen.</p>
+        </div>
+        <div class="manga-info" id="chainsaw-man">
+          <img src="images/chainsaw_man.jpg" alt="chainsaw man manga">
+          <p>This manga is so funny, but it still has lots of action. Definitely one of the best mangas ever made.
+          Following a betrayal, a young man left for dead is reborn as a powerful devil-human hybrid after merging with his pet devil and is soon enlisted into an organization dedicated to hunting devils. When his father died, Denji was stuck with a huge debt and no way to pay it back. Thanks to a Devil dog he saved named Pochita, he's able to survive through odd jobs and killing Devils for the Yakuza. Pochita's chainsaw powers come in handy against these powerful demons. When the Yakuza betrays him and he's killed by the Zombie Devil, Pochita sacrifices himself to save his former master. Now Denji has been reborn as some kind of weird Devil Human hybrid. He is now a Chainsaw Man!</p>
+        </div>
+      </section>
+    </main>
+  </div>
+  <footer>
+    <p>Jeffrey's Manga Website</p>
+  </footer>
+  <script src="scripts/script.js"></script>
+</body>
+</html>
